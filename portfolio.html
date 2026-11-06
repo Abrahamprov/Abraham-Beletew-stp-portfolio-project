@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -6,6 +6,7 @@
 	<meta name="description" content="Abraham Beletew's personal portfolio website">
 	<title>Abraham Beletew| Portfolio</title>
   <link rel="stylesheet" href="portfolio.css">
+  <script src="portfolio.js" defer></script>
 </head>
 <body>
 	<header>
@@ -19,16 +20,16 @@
           ><a href="#journey">Journey</a><a href="#contact">Contact</a>
         </div>
         <div class="tools">
-          <a class="tool" href="#contact" aria-label="GitHub profile">GH</a
-          ><a class="tool" href="#contact" aria-label="LinkedIn profile">in</a
-          ><button class="tool" id="theme" aria-label="Switch theme">☼</button
+          <a class="tool" href="#contact" aria-label="GitHub profile"><img class="social-icon" src="assets/github-mark.png" alt=""></a
+          ><a class="tool" href="#contact" aria-label="LinkedIn profile"><img class="social-icon" src="assets/linkedin-mark.png" alt=""></a
+          ><button class="tool" id="theme" aria-label="Switch theme">&#9788;</button
           ><button
             class="tool menu"
             id="menubtn"
             aria-label="Open menu"
             aria-expanded="false"
           >
-            ☰
+            &#9776;
           </button>
         </div>
       </nav>
@@ -37,7 +38,7 @@
       <section class="hero wrap" id="home">
         <div class="reveal">
           <div class="eyebrow">
-            Software engineering student · aspiring developer
+            Software engineering student &middot; aspiring developer
           </div>
           <h1>Building thoughtful digital experiences.</h1>
           <p>
@@ -46,11 +47,11 @@
             practical software solutions.
           </p>
           <div class="actions">
-            <a class="btn primary" href="#projects">Explore my projects ↗</a
+            <a class="btn primary" href="#projects">Explore my projects &#8599;</a
             ><a class="btn" href="#contact">Get in touch</a>
           </div>
           <div class="socials">
-            <a href="#contact">GitHub ↗</a><a href="#contact">LinkedIn ↗</a>
+            <a href="#contact"><img class="social-icon" src="assets/github-mark.png" alt="">GitHub &#8599;</a><a href="#contact"><img class="social-icon" src="assets/linkedin-mark.png" alt="">LinkedIn &#8599;</a>
           </div>
         </div>
         <div
@@ -58,7 +59,7 @@
           aria-label="Abstract developer monogram graphic"
         >
           <div class="card">
-            <div class="avatar" aria-hidden="true">AB</div>
+            <img class="avatar" src="assets/profile.jpg" alt="Portrait of Abraham Beletew">
             <div class="code">
               <b>const</b> developer = {<br />&nbsp; name:
               <b>'Abraham'</b>,<br />&nbsp; focus:
@@ -70,8 +71,8 @@
       <section class="section wrap reveal" id="about">
         <div class="section-head">
           <div>
-            <div class="eyebrow">01 · About</div>
-            <h2>Curious by nature.<br />Intentional in practice.</h2>
+            <div class="eyebrow">About</div>
+            <h2>About Me</h2>
           </div>
           <p>
             A living record of what I am learning, building, and hoping to
@@ -94,7 +95,7 @@
             </div>
             <div class="box">
               <strong>Technical interests</strong
-              ><span>Web development · problem solving</span>
+              ><span>Web development &middot; problem solving</span>
             </div>
             <div class="box">
               <strong>Development philosophy</strong
@@ -102,7 +103,7 @@
             </div>
             <div class="box">
               <strong>Current learning goals</strong
-              ><span>JavaScript · React · APIs · databases</span>
+              ><span>JavaScript &middot; React &middot; APIs &middot; databases</span>
             </div>
             <div class="box">
               <strong>Future career goals</strong
@@ -115,8 +116,8 @@
         <div class="wrap reveal">
           <div class="section-head">
             <div>
-              <div class="eyebrow">02 · Toolkit</div>
-              <h2>Tools for the journey.</h2>
+              <div class="eyebrow">Toolkit</div>
+              <h2>Skills</h2>
             </div>
             <p>
               Current focus is clearly marked so this list stays honest and easy
@@ -129,7 +130,7 @@
               <div class="tags">
                 <span class="tag">HTML</span><span class="tag">CSS</span
                 ><span class="tag">JavaScript</span
-                ><span class="tag learning">React · learning</span
+                ><span class="tag learning">React &middot; learning</span
                 ><span class="tag">Responsive design</span>
               </div>
             </div>
@@ -138,7 +139,7 @@
               <div class="tags">
                 <span class="tag">Java</span><span class="tag">C++</span
                 ><span class="tag learning"
-                  >Advanced JavaScript · learning</span
+                  >Advanced JavaScript &middot; learning</span
                 >
               </div>
             </div>
@@ -155,12 +156,11 @@
         <section class="section wrap reveal" id="projects">
         <div class="section-head">
           <div>
-            <div class="eyebrow">03 · Selected work</div>
-            <h2>Projects in progress.</h2>
+            <div class="eyebrow">Selected work</div>
+            <h2>Portfolio</h2>
           </div>
           <p>
-            Example directions, ready to replace with real repositories and
-            demos.
+            A selection of projects from my learning and development work.
           </p>
         </div>
         <div class="filters" role="group" aria-label="Filter projects">
@@ -183,12 +183,12 @@
               <span class="tag">JavaScript</span><span class="tag">CSS</span>
             </div>
             <div class="projectlinks">
-              <a href="#contact">Repository to add ↗</a>
+              <a href="#contact">Project details soon &#8599;</a>
             </div>
           </article>
           <article class="project" data-type="academic">
             <div class="projecttop">
-              02 / <span class="status">Example project</span>
+              02 / <span class="status">Academic project</span>
             </div>
             <h3>Hotel Management System</h3>
             <p>
@@ -199,12 +199,12 @@
               <span class="tag">Java</span><span class="tag">Academic</span>
             </div>
             <div class="projectlinks">
-              <a href="#contact">Repository to add ↗</a>
+              <a href="#contact">Project details soon &#8599;</a>
             </div>
           </article>
           <article class="project" data-type="javascript academic">
             <div class="projecttop">
-              03 / <span class="status">Example project</span>
+              03 / <span class="status">Academic project</span>
             </div>
             <h3>Student Management System</h3>
             <p>
@@ -216,7 +216,7 @@
               ><span class="tag">Academic</span>
             </div>
             <div class="projectlinks">
-              <a href="#contact">Repository to add ↗</a>
+              <a href="#contact">Project details soon &#8599;</a>
             </div>
           </article>
           <article class="project" data-type="frontend javascript">
@@ -232,7 +232,7 @@
               <span class="tag">HTML</span><span class="tag">CSS</span
               ><span class="tag">JavaScript</span>
             </div>
-            <div class="projectlinks"><a href="#home">View project ↗</a></div>
+            <div class="projectlinks"><a href="#home">View project &#8599;</a></div>
           </article>
         </div>
       </section>
@@ -240,21 +240,21 @@
         <div class="wrap reveal">
           <div class="section-head">
             <div>
-              <div class="eyebrow">04 · Journey</div>
+              <div class="eyebrow">Journey</div>
               <h2>Always becoming.</h2>
             </div>
-            <p>No inflated milestones—just an honest view of the next steps.</p>
+            <p>No exaggerated milestones; just an honest view of the next steps.</p>
           </div>
           <div class="timeline">
             <div class="journey">
-              <small>Foundation · completed learning</small>
+              <small>Foundation &middot; completed learning</small>
               <h3>Programming fundamentals</h3>
               <p class="muted">
                 Logic, problem solving, and core programming concepts.
               </p>
             </div>
             <div class="journey">
-              <small>Current focus · ongoing</small>
+              <small>Current focus &middot; ongoing</small>
               <h3>Frontend development</h3>
               <p class="muted">
                 Semantic HTML, CSS, responsive layouts, and JavaScript
@@ -262,7 +262,7 @@
               </p>
             </div>
             <div class="journey">
-              <small>Next chapter · learning</small>
+              <small>Next chapter &middot; learning</small>
               <h3>React and component-based development</h3>
               <p class="muted">
                 Exploring component thinking and modern interface structure.
@@ -279,7 +279,7 @@
         </div>
       </section>
        <section class="section wrap reveal" id="learning">
-        <div class="eyebrow">05 · Currently learning</div>
+        <div class="eyebrow">Currently learning</div>
         <h2>A practical learning loop.</h2>
         <div class="learninggrid">
           <div class="learning">Advanced JavaScript</div>
@@ -293,24 +293,23 @@
         <div class="wrap reveal">
           <div class="githubbox">
             <div>
-              <div class="eyebrow">06 · Open source corner</div>
+              <div class="eyebrow">Open source corner</div>
               <h2>Explore the code behind the learning.</h2>
               <p class="muted">
-                Add real GitHub and LinkedIn URLs in this file when available.
+                I enjoy sharing what I build and learning from the wider developer community.
               </p>
             </div>
-            <a class="btn primary" href="#contact">Add profile links ↗</a>
+            <a class="btn primary" href="#projects">Explore my projects &#8599;</a>
           </div>
         </div>
       </section>
        <section class="section wrap contact reveal" id="contact">
         <div class="contactinner">
-          <div class="eyebrow">07 · Contact</div>
-          <h2>Have an idea worth building?</h2>
+          <div class="eyebrow">Contact</div>
+          <h2>Contact Me</h2>
           <p class="copy">
             I am interested in thoughtful problems, learning opportunities, and
-            conversations about software. Replace the configurable contact
-            details below with real links.
+            conversations about software. Feel free to get in touch.
           </p>
           <div class="actions">
             <a class="btn primary" href="mailto:your-email@example.com"
@@ -319,17 +318,22 @@
           </div>
           <div class="socials">
             <a href="mailto:your-email@example.com">your-email@example.com</a
-            ><span>GitHub URL to add</span><span>LinkedIn URL to add</span>
+            ><span><img class="social-icon" src="assets/github-mark.png" alt="">GitHub profile</span><span><img class="social-icon" src="assets/linkedin-mark.png" alt="">LinkedIn profile</span>
           </div>
         </div>
       </section>
 	</main>
   <footer>
-      <div class="wrap footerin">
-        <span class="brand"
-          ><span class="mark" aria-hidden="true">AB</span>Abraham Beletew</span
-        ><span>Building with curiosity and care · <span id="year"></span></span>
+    <div class="wrap footerin">
+      <div class="footer-left">
+        <span class="brand"><span class="mark" aria-hidden="true">AB</span>Abraham Beletew</span>
+        <span class="footer-copy">© <span id="year"></span> Abraham Beletew</span>
       </div>
-    </footer>
+      <div class="footer-socials" aria-label="Social links">
+        <a href="#contact" aria-label="GitHub profile"><img class="social-icon" src="assets/github-mark.png" alt=""></a>
+        <a href="#contact" aria-label="LinkedIn profile"><img class="social-icon" src="assets/linkedin-mark.png" alt=""></a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
